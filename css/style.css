@@ -8,6 +8,7 @@ body {
 .logo {
     background-color: white;
     padding: 1em;
+    margin-bottom: 40px;
 }
 
 .logo_img {
@@ -23,11 +24,78 @@ body {
 
 /* header */
 
-/* container */
-.container {
+/* head container */
+.head_container {
     width: 80%;
     max-width: 600px;
-    margin: auto 0;
+    margin: 2px auto;
+    background-color: white;
+    border-radius: 5px;
+    padding: 1rem;
 }
 
-/* container */
+.add_task {
+    background-color: cyan;
+    padding: 0.5rem;
+    border: 1px solid cyan;
+    border-radius: 10px;
+    color: white;
+    margin: 0.5em;
+}
+
+.add_section {
+    background-color: white;
+    padding: 0.5rem;
+    border: 1px solid black;
+    border-radius: 10px;
+    color: grey;
+    margin: 0.5em;
+}
+
+/* head container */
+
+
+/* main container */
+
+.main_container {
+    width: 80%;
+    max-width: 600px;
+    margin: 2px auto;
+    background-color: white;
+    border-radius: 5px;
+    padding: 1rem;
+}
+
+/* main container */
+
+.main_container {
+    width: 80%;
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: white;
+}
+
+
+
+.task {
+    margin-bottom: 2rem;
+}
+
+.today {
+    margin-bottom: 2rem;
+}
+
+.upcoming {
+    margin-bottom: 2rem;
+}
+
+
+/* caselle colorate */
+.editorial {
+    background-color: cyan;
+    padding: 0.5rem;
+    border: 1px solid cyan;
+    border-radius: 10px;
+    color: white;
+    margin: 0.5em;
+}
