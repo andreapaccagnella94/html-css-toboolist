@@ -75,7 +75,9 @@ body {
     background-color: white;
 }
 
-
+table {
+    border-spacing: 1rem;
+}
 
 .task {
     margin-bottom: 2rem;
